@@ -81,5 +81,7 @@ try:
 
     if result is not None:
         print(f"Result: {result}")
+# TODO: Handle division/modulus by zero with try-except
 except ZeroDivisionError:
+  # Print result
     print("Error: Division or modulus by zero is not allowed.")
